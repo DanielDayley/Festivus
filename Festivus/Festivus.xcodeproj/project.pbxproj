@@ -20,6 +20,8 @@
 		68717A4D1B76C11A00F38821 /* VendorDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68717A4C1B76C11A00F38821 /* VendorDetailTableViewController.m */; };
 		68717A501B76C13100F38821 /* EventDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68717A4F1B76C13100F38821 /* EventDetailTableViewController.m */; };
 		68717A561B76C19B00F38821 /* DonateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68717A551B76C19B00F38821 /* DonateTableViewController.m */; };
+		7556F83F1B76D7E000365019 /* EventSearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7556F83D1B76D7E000365019 /* EventSearchResultTableViewCell.m */; };
+		7556F8401B76D7E000365019 /* EventSearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7556F83E1B76D7E000365019 /* EventSearchResultTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		68717A4F1B76C13100F38821 /* EventDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailTableViewController.m; sourceTree = "<group>"; };
 		68717A541B76C19B00F38821 /* DonateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateTableViewController.h; sourceTree = "<group>"; };
 		68717A551B76C19B00F38821 /* DonateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateTableViewController.m; sourceTree = "<group>"; };
+		7556F83C1B76D7E000365019 /* EventSearchResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSearchResultTableViewCell.h; sourceTree = "<group>"; };
+		7556F83D1B76D7E000365019 /* EventSearchResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventSearchResultTableViewCell.m; sourceTree = "<group>"; };
+		7556F83E1B76D7E000365019 /* EventSearchResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventSearchResultTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 				2CB13E161B76B45500F2D4AA /* VendorListViewController.m */,
 				68717A4B1B76C11A00F38821 /* VendorDetailTableViewController.h */,
 				68717A4C1B76C11A00F38821 /* VendorDetailTableViewController.m */,
+				7556F8411B76D7ED00365019 /* Custom Cells */,
 				68717A391B76BE9900F38821 /* EventListViewController.h */,
 				68717A3A1B76BE9900F38821 /* EventListViewController.m */,
 				68717A4E1B76C13100F38821 /* EventDetailTableViewController.h */,
@@ -147,6 +153,16 @@
 				2CB13E291B76B45500F2D4AA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7556F8411B76D7ED00365019 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7556F83C1B76D7E000365019 /* EventSearchResultTableViewCell.h */,
+				7556F83D1B76D7E000365019 /* EventSearchResultTableViewCell.m */,
+				7556F83E1B76D7E000365019 /* EventSearchResultTableViewCell.xib */,
+			);
+			name = "Custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB13E1A1B76B45500F2D4AA /* Main.storyboard in Resources */,
+				7556F8401B76D7E000365019 /* EventSearchResultTableViewCell.xib in Resources */,
 				2CB13E1F1B76B45500F2D4AA /* LaunchScreen.xib in Resources */,
 				2CB13E1C1B76B45500F2D4AA /* Images.xcassets in Resources */,
 			);
@@ -255,6 +272,7 @@
 				68717A561B76C19B00F38821 /* DonateTableViewController.m in Sources */,
 				2CB13E141B76B45500F2D4AA /* AppDelegate.m in Sources */,
 				68717A4D1B76C11A00F38821 /* VendorDetailTableViewController.m in Sources */,
+				7556F83F1B76D7E000365019 /* EventSearchResultTableViewCell.m in Sources */,
 				68717A3B1B76BE9900F38821 /* EventListViewController.m in Sources */,
 				2CB13E111B76B45500F2D4AA /* main.m in Sources */,
 				68717A411B76BF1700F38821 /* MusicEventDataSource.m in Sources */,
